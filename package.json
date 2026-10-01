@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-ai-trading-bot-platform",
+  "version": "1.0.0",
+  "description": "Professional Full-Stack Paper Trading & Automated Bot Engine REST API, WebSockets & Quantitative Analytics",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
